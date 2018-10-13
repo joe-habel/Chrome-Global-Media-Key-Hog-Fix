@@ -2218,3 +2218,30 @@ Oct 13 06:40:32.712: soundio_output: Device appears to have changed.
 Oct 13 06:40:32.712: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
 Oct 13 06:41:02.214: soundio_output: Device appears to have changed.
 Oct 13 06:41:02.214: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
+Oct 13 06:41:32.016: soundio_output: Device appears to have changed.
+Oct 13 06:41:32.016: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
+Oct 13 06:42:01.917: soundio_output: Device appears to have changed.
+Oct 13 06:42:01.917: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
+Oct 13 06:42:29.388: player: Got device format: 48000:f:2
+Oct 13 06:42:29.388: decoder_thread: setting replaygain track=-11.970000 album=-9.460000
+Oct 13 06:42:29.388: decoder_thread: setting mixramp in=-1.84 0.00;1.56 0.20;3.23 1.50;7.30 3.60; out=-51.00 0.13;-39.08 0.23;-26.25 0.53;-19.75 0.63;-17.96 0.83;-12.22 0.93;-11.47 1.03;-5.23 1.23;-0.88 1.43;2.51 1.53;3.33 1.63;7.25 1.73;
+Oct 13 06:42:29.432: ffmpeg: codec 'mp3'
+Oct 13 06:42:29.433: decoder: audio_format=44100:16:2, seekable=true
+Oct 13 06:42:29.433: decoder: Shared device format set to 48000:f:2, will convert if required
+Oct 13 06:42:29.433: decoder: converting to 48000:f:2
+Oct 13 06:42:29.433: cross_fade: will overlap 213 chunks, 2.272500s (previous: 2.372500s current: 0.000000s)
+Oct 13 06:42:29.433: libsamplerate: setting samplerate conversion ratio to 1.09
+Oct 13 06:42:29.433: player: Will be audible in 1 chunks.
+Oct 13 06:42:29.433: decoder: Enabling spectrum analyzer, format: 48000:f:2
+Oct 13 06:42:29.433: ffmpeg/mp3: Could not update timestamps for skipped samples.
+Oct 13 06:42:32.827: soundio_output: Device appears to have changed.
+Oct 13 06:42:32.827: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
+Oct 13 06:43:02.629: soundio_output: Device appears to have changed.
+Oct 13 06:43:02.629: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
+Oct 13 06:43:04.718: player: Starting crossfade.
+Oct 13 06:43:04.718: player: Crossfade became audible at offset 188170.
+Oct 13 06:43:05.311: replay_gain: scale=0.252058
+Oct 13 06:43:07.562: player: played "http://127.0.0.1:36000/proxy/file.mp3?source=2b19baaa2979a89e10d020b66028d241ae792a76&endpoint=%2Flibrary%2Fparts%2F1072%2F1527210528%2Ffile.mp3%3Fdownload%3D1%26X-Plex-Client-Identifier%3Db8d9a50e-6a79-41ab-9c6b-ef34240a244e%26X-Plex-Session-Identifier%3D4370b0ad-71b0-46ee-8621-67efd01f9591"
+Oct 13 06:43:07.562: replay_gain: scale=0.252058
+Oct 13 06:43:33.539: soundio_output: Device appears to have changed.
+Oct 13 06:43:33.539: soundio_output: New default device is {0.0.0.00000000}.{c85ef9bc-d4b2-4ea1-9e41-afe5c2d7955e} (Speakers (SoundMAX Integrated Digital High Definition Audio))
