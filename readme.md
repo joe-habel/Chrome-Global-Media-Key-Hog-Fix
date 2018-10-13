@@ -63,7 +63,7 @@ Then if your Chrome and Plexamp aren't installed in the default locations, go in
 
 Once your paths are configured, go ahead and run Setup.exe, and you should have a shortcut on your Desktop ready to go 
 
-### Using this fix and swapping between what can use media keys
+## How to swap between applications that can use media keys
 
 While this does provide somewhat of a painless way to be able to use media keys globally for both local applications and Chrome, chrome only updates when it is shutdown. So before you launch the fix, chrome must be closed.
 
@@ -75,17 +75,17 @@ After the local app opens, feel free to fire up chrome and use it like normal.
 
 If you wish to switch back to giving chrome access to the media keys, simply close out of the local media app completely. Again that might be from the bottom toolbar. Once the app is closed, if you have opened Chrome, give Chrome a full restsart, again from the bottom toolbar, and upon reopening, Chrome will have complete control of your media keys again.
 
-### Trobleshooting
+## Trobleshooting
 
-## What if the installer.py/Setup.exe doesn't create a shortcut?
+### What if the installer.py/Setup.exe doesn't create a shortcut?
 
 Check the errors.txt file. That should point you in the direction if your path to the apps aren't configured correctly.
 
-## What if when I click on the shortcut nothing happens
+### What if when I click on the shortcut nothing happens
 
 Navigate to where you installed unzipped the file, you can find this by right clicking the shortcut and clicking open file location in windows. Once there check the errors.txt, again this will tell you if you have any issues with the path.
 
-## I exited the local app and my media keys aren't working with Chrome
+### I exited the local app and my media keys aren't working with Chrome
 
 There's two things to try here. First make sure Chrome was completely shutdown, again checking in the taskbar to see if it's running down there as well.
 
