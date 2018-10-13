@@ -65,13 +65,13 @@ def main():
     
     current_path = os.path.abspath(os.getcwd())
     if len(glob(os.path.join(current_path,'*.py'))) > 0:
-        fix_keys = os.path.join(current_path,'stream_keys_fix.py')
+        fix_keys = os.path.join(current_path,'update_chrome_files.py')
         with open('launch.bat', 'w') as launcher:
             launcher.write('python %s start\n'%fix_keys)
             launcher.write('start /b /wait "" %s\n'%plexamp_dir)
             launcher.write('python %s close'%fix_keys)
     else:
-        fix_keys = os.path.join(current_path,'stream_keys_fix.exe')
+        fix_keys = os.path.join(current_path,'update_chrome_files.exe')
         with open('launch.bat', 'w') as launcher:
             launcher.write('start /b /wait %s start'%fix_keys)
             launcher.write('start /b /wait "" %s\n'%plexamp_dir)
