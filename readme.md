@@ -2,6 +2,9 @@
 
 Google Chrome allows extensions the option to utilize your media keys globally so you can control your media without having to have Chrome in focus. The problem with this is Chrome hogs the inputs of these keys so you can't use them in other local apps. The only suggested solution was to just uninstall these extensions, or set the media keys to only work when Chrome is in focus. This provides a way to disable the Chrome global options when launchign a local app that you want to have media key support for. Currently Plexamp and Streamkeys are the only supported local apps and Chrome extensions.
 
+## Precompiled Windows 7 Download:
+https://drive.google.com/open?id=16FFzZyBj8_51dD4jrdXMtDP8B-UBk8-H
+
 ## Getting Started
 
 You can opt to run this through a Python interpreter, compile it into an executable yourself, or run it from a precompiled build. That build for now has only been tested on Windows 7 - 64 bit, but I intend to package up builds for both Linux and macOs. Currently installer.py is currently written to generate .bat and .vbs scripts for windows, but again I intend on writing .sh options for UNIX systems.
