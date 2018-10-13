@@ -15,7 +15,7 @@ If you want to compile your own exe the only dependency is cx_Freeze === 5.1.1.
 If you want to use a precompiled build, that should be sufficient.
 
 
-### Installing with just Python
+## Installing with just Python
 
 If you intend on running the underlying scripts using Python, you'll first need to make sure python is installed.
 
@@ -41,7 +41,7 @@ path/to/python.exe installer.py
 
 and then you'll have a shortcut created on the Desktop that will allow you to enable stream keys for plex when it's watched
 
-### Compiling to your own exe
+## Compiling to your own exe
 
 To compile to executables, so you don't have to rely on a python interpreter, first make sure cx_Freeze is installed
 
@@ -55,7 +55,7 @@ and then you can compile a local build by calling
 path/to/python.exe setup.py build
 ```
 
-### Installing from a precompiled build
+## Installing from a precompiled build
 
 To install from a precompiled build, first unzip the archive.
 
