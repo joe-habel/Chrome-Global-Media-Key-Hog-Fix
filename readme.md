@@ -111,9 +111,9 @@ Just as much I'm looking to extend the functionality outside of Windows and into
 
 Suggestions are greatly welcome, as are pull requests. If you can add something that I missed or fix something, please do!
 
-### Currenlt Compatible With
+### Currently Compatible With
 
-[Plexamp](https://plexamp.com/)
+[Plexamp](https://plexamp.com/) <br>
 [Streamkeys](https://www.streamkeys.com/)
  
 
