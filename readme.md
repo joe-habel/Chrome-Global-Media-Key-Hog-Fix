@@ -1,4 +1,4 @@
-#Plexamp Chrome Global Media Key Hog Fix
+##Plexamp Chrome Global Media Key Hog Fix
 
 Google Chrome allows extensions the option to utilize your media keys globally so you can control your media without having to have Chrome in focus. The problem with this is Chrome hogs the inputs of these keys so you can't use them in other local apps. The only suggested solution was to just uninstall these extensions, or set the media keys to only work when Chrome is in focus. This provides a way to disable the Chrome global options when launchign a local app that you want to have media key support for. Currently Plexamp and Streamkeys are the only supported local apps and Chrome extensions.
 
