@@ -73,7 +73,7 @@ def main():
     else:
         fix_keys = os.path.join(current_path,'update_chrome_files.exe')
         with open('launch.bat', 'w') as launcher:
-            launcher.write('start /b /wait %s start'%fix_keys)
+            launcher.write('start /b /wait %s start\n'%fix_keys)
             launcher.write('start /b /wait "" %s\n'%plexamp_dir)
             launcher.write('start /b /wait %s close'%fix_keys)
     
