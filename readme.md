@@ -103,7 +103,7 @@ path/to/python.exe installer.py
 
 Add additional notes about how to deploy this on a live system
 
-### Future Additions
+## Future Additions
 
 Currently this only supports Plexamp in conjuction with the Streamkeys extension on Windows. I'd like to be able to extend this to other local player apps, and other chrome extentions that allow you to control your media globally.
 
